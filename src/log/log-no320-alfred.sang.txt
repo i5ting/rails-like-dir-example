@@ -1,0 +1,3 @@
+2013/03/14 16:31:12:012  log file at: /Users/dudan/work/git/rails-like-dir-example/src/log/log-no320-alfred.sang.txt
+2013/03/14 16:31:12:012  Broken sprocket detected!
+2013/03/14 16:31:12:014  dddd

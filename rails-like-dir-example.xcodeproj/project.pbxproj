@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DD8420C16F16ED80090DEE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD8420B16F16ED80090DEE4 /* UIKit.framework */; };
+		5DD8420E16F16ED80090DEE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD8420D16F16ED80090DEE4 /* Foundation.framework */; };
+		5DD8421016F16ED80090DEE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD8420F16F16ED80090DEE4 /* CoreGraphics.framework */; };
+		5DD8421616F16ED80090DEE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5DD8421416F16ED80090DEE4 /* InfoPlist.strings */; };
+		5DD8421816F16ED80090DEE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8421716F16ED80090DEE4 /* main.m */; };
+		5DD8421C16F16ED80090DEE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8421B16F16ED80090DEE4 /* AppDelegate.m */; };
+		5DD8421E16F16ED80090DEE4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DD8421D16F16ED80090DEE4 /* Default.png */; };
+		5DD8422016F16ED80090DEE4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DD8421F16F16ED80090DEE4 /* Default@2x.png */; };
+		5DD8422216F16ED80090DEE4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DD8422116F16ED80090DEE4 /* Default-568h@2x.png */; };
+		5DD8422A16F16ED90090DEE4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD8422916F16ED90090DEE4 /* SenTestingKit.framework */; };
+		5DD8422B16F16ED90090DEE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD8420B16F16ED80090DEE4 /* UIKit.framework */; };
+		5DD8422C16F16ED90090DEE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD8420D16F16ED80090DEE4 /* Foundation.framework */; };
+		5DD8423416F16ED90090DEE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5DD8423216F16ED90090DEE4 /* InfoPlist.strings */; };
+		5DD8423716F16ED90090DEE4 /* rails_like_dir_exampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8423616F16ED90090DEE4 /* rails_like_dir_exampleTests.m */; };
+		5DD8425416F181870090DEE4 /* test.db in Resources */ = {isa = PBXBuildFile; fileRef = 5DD8424D16F181870090DEE4 /* test.db */; };
+		5DD8425516F181870090DEE4 /* test.db in Resources */ = {isa = PBXBuildFile; fileRef = 5DD8424D16F181870090DEE4 /* test.db */; };
+		5DD8426716F1AD340090DEE4 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8425816F1AD340090DEE4 /* DDAbstractDatabaseLogger.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		5DD8426816F1AD340090DEE4 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8425816F1AD340090DEE4 /* DDAbstractDatabaseLogger.m */; };
+		5DD8426916F1AD340090DEE4 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8425A16F1AD340090DEE4 /* DDASLLogger.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		5DD8426A16F1AD340090DEE4 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8425A16F1AD340090DEE4 /* DDASLLogger.m */; };
+		5DD8426B16F1AD340090DEE4 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8425C16F1AD340090DEE4 /* DDFileLogger.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		5DD8426C16F1AD340090DEE4 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8425C16F1AD340090DEE4 /* DDFileLogger.m */; };
+		5DD8426D16F1AD340090DEE4 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8425E16F1AD340090DEE4 /* DDLog.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		5DD8426E16F1AD340090DEE4 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8425E16F1AD340090DEE4 /* DDLog.m */; };
+		5DD8426F16F1AD340090DEE4 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8426016F1AD340090DEE4 /* DDTTYLogger.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		5DD8427016F1AD340090DEE4 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8426016F1AD340090DEE4 /* DDTTYLogger.m */; };
+		5DD8427116F1AD340090DEE4 /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8426316F1AD340090DEE4 /* ContextFilterLogFormatter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		5DD8427216F1AD340090DEE4 /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8426316F1AD340090DEE4 /* ContextFilterLogFormatter.m */; };
+		5DD8427316F1AD340090DEE4 /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8426516F1AD340090DEE4 /* DispatchQueueLogFormatter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		5DD8427416F1AD340090DEE4 /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8426516F1AD340090DEE4 /* DispatchQueueLogFormatter.m */; };
+		5DD8427516F1AD340090DEE4 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5DD8426616F1AD340090DEE4 /* README.txt */; };
+		5DD8427616F1AD340090DEE4 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5DD8426616F1AD340090DEE4 /* README.txt */; };
+		5DD8427D16F1B6A50090DEE4 /* No320LogFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8427C16F1B6A50090DEE4 /* No320LogFileManager.m */; };
+		5DD8427E16F1B6A50090DEE4 /* No320LogFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8427C16F1B6A50090DEE4 /* No320LogFileManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DD8422D16F16ED90090DEE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DD8420016F16ED80090DEE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DD8420716F16ED80090DEE4;
+			remoteInfo = "rails-like-dir-example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DD8420816F16ED80090DEE4 /* rails-like-dir-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rails-like-dir-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DD8420B16F16ED80090DEE4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5DD8420D16F16ED80090DEE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5DD8420F16F16ED80090DEE4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5DD8421316F16ED80090DEE4 /* rails-like-dir-example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "rails-like-dir-example-Info.plist"; sourceTree = "<group>"; };
+		5DD8421516F16ED80090DEE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5DD8421716F16ED80090DEE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DD8421916F16ED80090DEE4 /* rails-like-dir-example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "rails-like-dir-example-Prefix.pch"; sourceTree = "<group>"; };
+		5DD8421A16F16ED80090DEE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5DD8421B16F16ED80090DEE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5DD8421D16F16ED80090DEE4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5DD8421F16F16ED80090DEE4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5DD8422116F16ED80090DEE4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5DD8422816F16ED90090DEE4 /* rails-like-dir-exampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rails-like-dir-exampleTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DD8422916F16ED90090DEE4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5DD8423116F16ED90090DEE4 /* rails-like-dir-exampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "rails-like-dir-exampleTests-Info.plist"; sourceTree = "<group>"; };
+		5DD8423316F16ED90090DEE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5DD8423516F16ED90090DEE4 /* rails_like_dir_exampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rails_like_dir_exampleTests.h; sourceTree = "<group>"; };
+		5DD8423616F16ED90090DEE4 /* rails_like_dir_exampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rails_like_dir_exampleTests.m; sourceTree = "<group>"; };
+		5DD8424D16F181870090DEE4 /* test.db */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.db; sourceTree = "<group>"; };
+		5DD8425716F1AD340090DEE4 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		5DD8425816F1AD340090DEE4 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		5DD8425916F1AD340090DEE4 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		5DD8425A16F1AD340090DEE4 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		5DD8425B16F1AD340090DEE4 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		5DD8425C16F1AD340090DEE4 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		5DD8425D16F1AD340090DEE4 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		5DD8425E16F1AD340090DEE4 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		5DD8425F16F1AD340090DEE4 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		5DD8426016F1AD340090DEE4 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		5DD8426216F1AD340090DEE4 /* ContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		5DD8426316F1AD340090DEE4 /* ContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		5DD8426416F1AD340090DEE4 /* DispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		5DD8426516F1AD340090DEE4 /* DispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		5DD8426616F1AD340090DEE4 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		5DD8427B16F1B6A50090DEE4 /* No320LogFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = No320LogFileManager.h; sourceTree = "<group>"; };
+		5DD8427C16F1B6A50090DEE4 /* No320LogFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = No320LogFileManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DD8420516F16ED80090DEE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DD8420C16F16ED80090DEE4 /* UIKit.framework in Frameworks */,
+				5DD8420E16F16ED80090DEE4 /* Foundation.framework in Frameworks */,
+				5DD8421016F16ED80090DEE4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DD8422416F16ED90090DEE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DD8422A16F16ED90090DEE4 /* SenTestingKit.framework in Frameworks */,
+				5DD8422B16F16ED90090DEE4 /* UIKit.framework in Frameworks */,
+				5DD8422C16F16ED90090DEE4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DD841FF16F16ED80090DEE4 = {
+			isa = PBXGroup;
+			children = (
+				5DD8424016F181870090DEE4 /* src */,
+				5DD8421116F16ED80090DEE4 /* rails-like-dir-example */,
+				5DD8422F16F16ED90090DEE4 /* rails-like-dir-exampleTests */,
+				5DD8420A16F16ED80090DEE4 /* Frameworks */,
+				5DD8420916F16ED80090DEE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DD8420916F16ED80090DEE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DD8420816F16ED80090DEE4 /* rails-like-dir-example.app */,
+				5DD8422816F16ED90090DEE4 /* rails-like-dir-exampleTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DD8420A16F16ED80090DEE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DD8420B16F16ED80090DEE4 /* UIKit.framework */,
+				5DD8420D16F16ED80090DEE4 /* Foundation.framework */,
+				5DD8420F16F16ED80090DEE4 /* CoreGraphics.framework */,
+				5DD8422916F16ED90090DEE4 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DD8421116F16ED80090DEE4 /* rails-like-dir-example */ = {
+			isa = PBXGroup;
+			children = (
+				5DD8421A16F16ED80090DEE4 /* AppDelegate.h */,
+				5DD8421B16F16ED80090DEE4 /* AppDelegate.m */,
+				5DD8421216F16ED80090DEE4 /* Supporting Files */,
+			);
+			path = "rails-like-dir-example";
+			sourceTree = "<group>";
+		};
+		5DD8421216F16ED80090DEE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DD8421316F16ED80090DEE4 /* rails-like-dir-example-Info.plist */,
+				5DD8421416F16ED80090DEE4 /* InfoPlist.strings */,
+				5DD8421716F16ED80090DEE4 /* main.m */,
+				5DD8421916F16ED80090DEE4 /* rails-like-dir-example-Prefix.pch */,
+				5DD8421D16F16ED80090DEE4 /* Default.png */,
+				5DD8421F16F16ED80090DEE4 /* Default@2x.png */,
+				5DD8422116F16ED80090DEE4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DD8422F16F16ED90090DEE4 /* rails-like-dir-exampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DD8423516F16ED90090DEE4 /* rails_like_dir_exampleTests.h */,
+				5DD8423616F16ED90090DEE4 /* rails_like_dir_exampleTests.m */,
+				5DD8423016F16ED90090DEE4 /* Supporting Files */,
+			);
+			path = "rails-like-dir-exampleTests";
+			sourceTree = "<group>";
+		};
+		5DD8423016F16ED90090DEE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DD8423116F16ED90090DEE4 /* rails-like-dir-exampleTests-Info.plist */,
+				5DD8423216F16ED90090DEE4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DD8424016F181870090DEE4 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				5DD8424116F181870090DEE4 /* app */,
+				5DD8424816F181870090DEE4 /* config */,
+				5DD8424C16F181870090DEE4 /* db */,
+				5DD8424E16F181870090DEE4 /* doc */,
+				5DD8424F16F181870090DEE4 /* log */,
+				5DD8425016F181870090DEE4 /* script */,
+				5DD8425116F181870090DEE4 /* server */,
+				5DD8425216F181870090DEE4 /* test */,
+				5DD8425316F181870090DEE4 /* vendor */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		5DD8424116F181870090DEE4 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				5DD8424216F181870090DEE4 /* assets */,
+				5DD8424416F181870090DEE4 /* controllers */,
+				5DD8424516F181870090DEE4 /* helpers */,
+				5DD8424616F181870090DEE4 /* models */,
+				5DD8424716F181870090DEE4 /* views */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		5DD8424216F181870090DEE4 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				5DD8424316F181870090DEE4 /* images */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		5DD8424316F181870090DEE4 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		5DD8424416F181870090DEE4 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		5DD8424516F181870090DEE4 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5DD8427B16F1B6A50090DEE4 /* No320LogFileManager.h */,
+				5DD8427C16F1B6A50090DEE4 /* No320LogFileManager.m */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		5DD8424616F181870090DEE4 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		5DD8424716F181870090DEE4 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		5DD8424816F181870090DEE4 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				5DD8424916F181870090DEE4 /* environments */,
+				5DD8424A16F181870090DEE4 /* initializers */,
+				5DD8424B16F181870090DEE4 /* locales */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		5DD8424916F181870090DEE4 /* environments */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = environments;
+			sourceTree = "<group>";
+		};
+		5DD8424A16F181870090DEE4 /* initializers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = initializers;
+			sourceTree = "<group>";
+		};
+		5DD8424B16F181870090DEE4 /* locales */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = locales;
+			sourceTree = "<group>";
+		};
+		5DD8424C16F181870090DEE4 /* db */ = {
+			isa = PBXGroup;
+			children = (
+				5DD8424D16F181870090DEE4 /* test.db */,
+			);
+			path = db;
+			sourceTree = "<group>";
+		};
+		5DD8424E16F181870090DEE4 /* doc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = doc;
+			sourceTree = "<group>";
+		};
+		5DD8424F16F181870090DEE4 /* log */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = log;
+			sourceTree = "<group>";
+		};
+		5DD8425016F181870090DEE4 /* script */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = script;
+			sourceTree = "<group>";
+		};
+		5DD8425116F181870090DEE4 /* server */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = server;
+			sourceTree = "<group>";
+		};
+		5DD8425216F181870090DEE4 /* test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		5DD8425316F181870090DEE4 /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				5DD8425616F1AD340090DEE4 /* Lumberjack */,
+			);
+			path = vendor;
+			sourceTree = "<group>";
+		};
+		5DD8425616F1AD340090DEE4 /* Lumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				5DD8425716F1AD340090DEE4 /* DDAbstractDatabaseLogger.h */,
+				5DD8425816F1AD340090DEE4 /* DDAbstractDatabaseLogger.m */,
+				5DD8425916F1AD340090DEE4 /* DDASLLogger.h */,
+				5DD8425A16F1AD340090DEE4 /* DDASLLogger.m */,
+				5DD8425B16F1AD340090DEE4 /* DDFileLogger.h */,
+				5DD8425C16F1AD340090DEE4 /* DDFileLogger.m */,
+				5DD8425D16F1AD340090DEE4 /* DDLog.h */,
+				5DD8425E16F1AD340090DEE4 /* DDLog.m */,
+				5DD8425F16F1AD340090DEE4 /* DDTTYLogger.h */,
+				5DD8426016F1AD340090DEE4 /* DDTTYLogger.m */,
+				5DD8426116F1AD340090DEE4 /* Extensions */,
+			);
+			path = Lumberjack;
+			sourceTree = "<group>";
+		};
+		5DD8426116F1AD340090DEE4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5DD8426216F1AD340090DEE4 /* ContextFilterLogFormatter.h */,
+				5DD8426316F1AD340090DEE4 /* ContextFilterLogFormatter.m */,
+				5DD8426416F1AD340090DEE4 /* DispatchQueueLogFormatter.h */,
+				5DD8426516F1AD340090DEE4 /* DispatchQueueLogFormatter.m */,
+				5DD8426616F1AD340090DEE4 /* README.txt */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DD8420716F16ED80090DEE4 /* rails-like-dir-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DD8423A16F16ED90090DEE4 /* Build configuration list for PBXNativeTarget "rails-like-dir-example" */;
+			buildPhases = (
+				5DD8420416F16ED80090DEE4 /* Sources */,
+				5DD8420516F16ED80090DEE4 /* Frameworks */,
+				5DD8420616F16ED80090DEE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rails-like-dir-example";
+			productName = "rails-like-dir-example";
+			productReference = 5DD8420816F16ED80090DEE4 /* rails-like-dir-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DD8422716F16ED90090DEE4 /* rails-like-dir-exampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DD8423D16F16ED90090DEE4 /* Build configuration list for PBXNativeTarget "rails-like-dir-exampleTests" */;
+			buildPhases = (
+				5DD8422316F16ED90090DEE4 /* Sources */,
+				5DD8422416F16ED90090DEE4 /* Frameworks */,
+				5DD8422516F16ED90090DEE4 /* Resources */,
+				5DD8422616F16ED90090DEE4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DD8422E16F16ED90090DEE4 /* PBXTargetDependency */,
+			);
+			name = "rails-like-dir-exampleTests";
+			productName = "rails-like-dir-exampleTests";
+			productReference = 5DD8422816F16ED90090DEE4 /* rails-like-dir-exampleTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DD8420016F16ED80090DEE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "alfred sang";
+			};
+			buildConfigurationList = 5DD8420316F16ED80090DEE4 /* Build configuration list for PBXProject "rails-like-dir-example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5DD841FF16F16ED80090DEE4;
+			productRefGroup = 5DD8420916F16ED80090DEE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DD8420716F16ED80090DEE4 /* rails-like-dir-example */,
+				5DD8422716F16ED90090DEE4 /* rails-like-dir-exampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DD8420616F16ED80090DEE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DD8421616F16ED80090DEE4 /* InfoPlist.strings in Resources */,
+				5DD8421E16F16ED80090DEE4 /* Default.png in Resources */,
+				5DD8422016F16ED80090DEE4 /* Default@2x.png in Resources */,
+				5DD8422216F16ED80090DEE4 /* Default-568h@2x.png in Resources */,
+				5DD8425416F181870090DEE4 /* test.db in Resources */,
+				5DD8427516F1AD340090DEE4 /* README.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DD8422516F16ED90090DEE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DD8423416F16ED90090DEE4 /* InfoPlist.strings in Resources */,
+				5DD8425516F181870090DEE4 /* test.db in Resources */,
+				5DD8427616F1AD340090DEE4 /* README.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DD8422616F16ED90090DEE4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DD8420416F16ED80090DEE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DD8421816F16ED80090DEE4 /* main.m in Sources */,
+				5DD8421C16F16ED80090DEE4 /* AppDelegate.m in Sources */,
+				5DD8426716F1AD340090DEE4 /* DDAbstractDatabaseLogger.m in Sources */,
+				5DD8426916F1AD340090DEE4 /* DDASLLogger.m in Sources */,
+				5DD8426B16F1AD340090DEE4 /* DDFileLogger.m in Sources */,
+				5DD8426D16F1AD340090DEE4 /* DDLog.m in Sources */,
+				5DD8426F16F1AD340090DEE4 /* DDTTYLogger.m in Sources */,
+				5DD8427116F1AD340090DEE4 /* ContextFilterLogFormatter.m in Sources */,
+				5DD8427316F1AD340090DEE4 /* DispatchQueueLogFormatter.m in Sources */,
+				5DD8427D16F1B6A50090DEE4 /* No320LogFileManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DD8422316F16ED90090DEE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DD8423716F16ED90090DEE4 /* rails_like_dir_exampleTests.m in Sources */,
+				5DD8426816F1AD340090DEE4 /* DDAbstractDatabaseLogger.m in Sources */,
+				5DD8426A16F1AD340090DEE4 /* DDASLLogger.m in Sources */,
+				5DD8426C16F1AD340090DEE4 /* DDFileLogger.m in Sources */,
+				5DD8426E16F1AD340090DEE4 /* DDLog.m in Sources */,
+				5DD8427016F1AD340090DEE4 /* DDTTYLogger.m in Sources */,
+				5DD8427216F1AD340090DEE4 /* ContextFilterLogFormatter.m in Sources */,
+				5DD8427416F1AD340090DEE4 /* DispatchQueueLogFormatter.m in Sources */,
+				5DD8427E16F1B6A50090DEE4 /* No320LogFileManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DD8422E16F16ED90090DEE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DD8420716F16ED80090DEE4 /* rails-like-dir-example */;
+			targetProxy = 5DD8422D16F16ED90090DEE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DD8421416F16ED80090DEE4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DD8421516F16ED80090DEE4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5DD8423216F16ED90090DEE4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DD8423316F16ED90090DEE4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DD8423816F16ED90090DEE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5DD8423916F16ED90090DEE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DD8423B16F16ED90090DEE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rails-like-dir-example/rails-like-dir-example-Prefix.pch";
+				INFOPLIST_FILE = "rails-like-dir-example/rails-like-dir-example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5DD8423C16F16ED90090DEE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rails-like-dir-example/rails-like-dir-example-Prefix.pch";
+				INFOPLIST_FILE = "rails-like-dir-example/rails-like-dir-example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5DD8423E16F16ED90090DEE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/rails-like-dir-example.app/rails-like-dir-example";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rails-like-dir-example/rails-like-dir-example-Prefix.pch";
+				INFOPLIST_FILE = "rails-like-dir-exampleTests/rails-like-dir-exampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5DD8423F16F16ED90090DEE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/rails-like-dir-example.app/rails-like-dir-example";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rails-like-dir-example/rails-like-dir-example-Prefix.pch";
+				INFOPLIST_FILE = "rails-like-dir-exampleTests/rails-like-dir-exampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DD8420316F16ED80090DEE4 /* Build configuration list for PBXProject "rails-like-dir-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DD8423816F16ED90090DEE4 /* Debug */,
+				5DD8423916F16ED90090DEE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DD8423A16F16ED90090DEE4 /* Build configuration list for PBXNativeTarget "rails-like-dir-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DD8423B16F16ED90090DEE4 /* Debug */,
+				5DD8423C16F16ED90090DEE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DD8423D16F16ED90090DEE4 /* Build configuration list for PBXNativeTarget "rails-like-dir-exampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DD8423E16F16ED90090DEE4 /* Debug */,
+				5DD8423F16F16ED90090DEE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DD8420016F16ED80090DEE4 /* Project object */;
+}

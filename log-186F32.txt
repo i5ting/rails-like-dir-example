@@ -1,0 +1,6 @@
+2013/03/14 15:49:18:318  log file at: /Users/dudan/work/git/rails-like-dir-example/log-186F32.txt
+2013/03/14 15:49:18:318  Broken sprocket detected!
+2013/03/14 15:49:18:320  dddd
+2013/03/14 15:49:39:070  log file at: /Users/dudan/work/git/rails-like-dir-example/log-186F32.txt
+2013/03/14 15:49:39:070  Broken sprocket detected!
+2013/03/14 15:49:39:088  dddd
