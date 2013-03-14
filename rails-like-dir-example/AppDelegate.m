@@ -40,7 +40,7 @@
     [t addTarget:self action:@selector(createlog) forControlEvents:UIControlEventTouchUpInside];
     [self.window addSubview:t];
     
-   
+
     NSLog(@"%s:%d:%s:%s\n", __func__, __LINE__, __FILE__,__PRETTY_FUNCTION__);
     NSLog(@"%@\n",NSStringFromSelector(_cmd));
     NSLog(@"%@\n",NSStringFromClass([self class]));
@@ -48,8 +48,33 @@
     NSLog(@"%@\n",[NSThread callStackSymbols]);
  
     
+    NSString *current_dir  =  [NSString stringWithFormat:@"%s",__FILE__];
+    NSString *result_dif   =  [self getDirectory:current_dir withBeforeLevel:2];
+    
+    log_info(@"%@",result_dif);
     
     return YES;
+}
+
+/**
+ * NSString *current_dir  =  [NSString stringWithFormat:@"%s",__FILE__];
+ * NSString *result_dif   =  [self getDirectory:current_dir withBeforeLevel:2];
+ * 
+ * result:
+ * current_dir = /Users/myname/work/git/rails-like-dir-example/rails-like-dir-example/AppDelegate.m
+ * result dir =  /Users/myname/work/git/rails-like-dir-example/
+ */
+
+-(NSString *)getDirectory:(NSString *)current_dir withBeforeLevel:(int)blevel
+{
+    //NSString *current_dir = [NSString stringWithFormat:@"%s",__FILE__];
+    NSMutableArray *dir_arr = [NSMutableArray arrayWithArray:[current_dir componentsSeparatedByString:@"/"]];
+    
+    for (int i = 0; i< blevel; i++) {
+        [dir_arr removeObjectAtIndex:[dir_arr count]-1];
+    }
+    
+    return [dir_arr componentsJoinedByString:@"/"];
 }
 
 -(void)createlog
