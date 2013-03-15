@@ -23,24 +23,6 @@
 		5DD8423716F16ED90090DEE4 /* rails_like_dir_exampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8423616F16ED90090DEE4 /* rails_like_dir_exampleTests.m */; };
 		5DD8425416F181870090DEE4 /* test.db in Resources */ = {isa = PBXBuildFile; fileRef = 5DD8424D16F181870090DEE4 /* test.db */; };
 		5DD8425516F181870090DEE4 /* test.db in Resources */ = {isa = PBXBuildFile; fileRef = 5DD8424D16F181870090DEE4 /* test.db */; };
-		5DD8426716F1AD340090DEE4 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8425816F1AD340090DEE4 /* DDAbstractDatabaseLogger.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		5DD8426816F1AD340090DEE4 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8425816F1AD340090DEE4 /* DDAbstractDatabaseLogger.m */; };
-		5DD8426916F1AD340090DEE4 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8425A16F1AD340090DEE4 /* DDASLLogger.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		5DD8426A16F1AD340090DEE4 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8425A16F1AD340090DEE4 /* DDASLLogger.m */; };
-		5DD8426B16F1AD340090DEE4 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8425C16F1AD340090DEE4 /* DDFileLogger.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		5DD8426C16F1AD340090DEE4 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8425C16F1AD340090DEE4 /* DDFileLogger.m */; };
-		5DD8426D16F1AD340090DEE4 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8425E16F1AD340090DEE4 /* DDLog.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		5DD8426E16F1AD340090DEE4 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8425E16F1AD340090DEE4 /* DDLog.m */; };
-		5DD8426F16F1AD340090DEE4 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8426016F1AD340090DEE4 /* DDTTYLogger.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		5DD8427016F1AD340090DEE4 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8426016F1AD340090DEE4 /* DDTTYLogger.m */; };
-		5DD8427116F1AD340090DEE4 /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8426316F1AD340090DEE4 /* ContextFilterLogFormatter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		5DD8427216F1AD340090DEE4 /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8426316F1AD340090DEE4 /* ContextFilterLogFormatter.m */; };
-		5DD8427316F1AD340090DEE4 /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8426516F1AD340090DEE4 /* DispatchQueueLogFormatter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		5DD8427416F1AD340090DEE4 /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8426516F1AD340090DEE4 /* DispatchQueueLogFormatter.m */; };
-		5DD8427516F1AD340090DEE4 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5DD8426616F1AD340090DEE4 /* README.txt */; };
-		5DD8427616F1AD340090DEE4 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5DD8426616F1AD340090DEE4 /* README.txt */; };
-		5DD8427D16F1B6A50090DEE4 /* No320LogFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8427C16F1B6A50090DEE4 /* No320LogFileManager.m */; };
-		5DD8427E16F1B6A50090DEE4 /* No320LogFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8427C16F1B6A50090DEE4 /* No320LogFileManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,23 +56,6 @@
 		5DD8423516F16ED90090DEE4 /* rails_like_dir_exampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rails_like_dir_exampleTests.h; sourceTree = "<group>"; };
 		5DD8423616F16ED90090DEE4 /* rails_like_dir_exampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rails_like_dir_exampleTests.m; sourceTree = "<group>"; };
 		5DD8424D16F181870090DEE4 /* test.db */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.db; sourceTree = "<group>"; };
-		5DD8425716F1AD340090DEE4 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
-		5DD8425816F1AD340090DEE4 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
-		5DD8425916F1AD340090DEE4 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
-		5DD8425A16F1AD340090DEE4 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
-		5DD8425B16F1AD340090DEE4 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
-		5DD8425C16F1AD340090DEE4 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
-		5DD8425D16F1AD340090DEE4 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
-		5DD8425E16F1AD340090DEE4 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
-		5DD8425F16F1AD340090DEE4 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
-		5DD8426016F1AD340090DEE4 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
-		5DD8426216F1AD340090DEE4 /* ContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextFilterLogFormatter.h; sourceTree = "<group>"; };
-		5DD8426316F1AD340090DEE4 /* ContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextFilterLogFormatter.m; sourceTree = "<group>"; };
-		5DD8426416F1AD340090DEE4 /* DispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchQueueLogFormatter.h; sourceTree = "<group>"; };
-		5DD8426516F1AD340090DEE4 /* DispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchQueueLogFormatter.m; sourceTree = "<group>"; };
-		5DD8426616F1AD340090DEE4 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
-		5DD8427B16F1B6A50090DEE4 /* No320LogFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = No320LogFileManager.h; sourceTree = "<group>"; };
-		5DD8427C16F1B6A50090DEE4 /* No320LogFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = No320LogFileManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,8 +209,6 @@
 		5DD8424516F181870090DEE4 /* helpers */ = {
 			isa = PBXGroup;
 			children = (
-				5DD8427B16F1B6A50090DEE4 /* No320LogFileManager.h */,
-				5DD8427C16F1B6A50090DEE4 /* No320LogFileManager.m */,
 			);
 			path = helpers;
 			sourceTree = "<group>";
@@ -341,39 +304,8 @@
 		5DD8425316F181870090DEE4 /* vendor */ = {
 			isa = PBXGroup;
 			children = (
-				5DD8425616F1AD340090DEE4 /* Lumberjack */,
 			);
 			path = vendor;
-			sourceTree = "<group>";
-		};
-		5DD8425616F1AD340090DEE4 /* Lumberjack */ = {
-			isa = PBXGroup;
-			children = (
-				5DD8425716F1AD340090DEE4 /* DDAbstractDatabaseLogger.h */,
-				5DD8425816F1AD340090DEE4 /* DDAbstractDatabaseLogger.m */,
-				5DD8425916F1AD340090DEE4 /* DDASLLogger.h */,
-				5DD8425A16F1AD340090DEE4 /* DDASLLogger.m */,
-				5DD8425B16F1AD340090DEE4 /* DDFileLogger.h */,
-				5DD8425C16F1AD340090DEE4 /* DDFileLogger.m */,
-				5DD8425D16F1AD340090DEE4 /* DDLog.h */,
-				5DD8425E16F1AD340090DEE4 /* DDLog.m */,
-				5DD8425F16F1AD340090DEE4 /* DDTTYLogger.h */,
-				5DD8426016F1AD340090DEE4 /* DDTTYLogger.m */,
-				5DD8426116F1AD340090DEE4 /* Extensions */,
-			);
-			path = Lumberjack;
-			sourceTree = "<group>";
-		};
-		5DD8426116F1AD340090DEE4 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				5DD8426216F1AD340090DEE4 /* ContextFilterLogFormatter.h */,
-				5DD8426316F1AD340090DEE4 /* ContextFilterLogFormatter.m */,
-				5DD8426416F1AD340090DEE4 /* DispatchQueueLogFormatter.h */,
-				5DD8426516F1AD340090DEE4 /* DispatchQueueLogFormatter.m */,
-				5DD8426616F1AD340090DEE4 /* README.txt */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -452,7 +384,6 @@
 				5DD8422016F16ED80090DEE4 /* Default@2x.png in Resources */,
 				5DD8422216F16ED80090DEE4 /* Default-568h@2x.png in Resources */,
 				5DD8425416F181870090DEE4 /* test.db in Resources */,
-				5DD8427516F1AD340090DEE4 /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,7 +393,6 @@
 			files = (
 				5DD8423416F16ED90090DEE4 /* InfoPlist.strings in Resources */,
 				5DD8425516F181870090DEE4 /* test.db in Resources */,
-				5DD8427616F1AD340090DEE4 /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,14 +421,6 @@
 			files = (
 				5DD8421816F16ED80090DEE4 /* main.m in Sources */,
 				5DD8421C16F16ED80090DEE4 /* AppDelegate.m in Sources */,
-				5DD8426716F1AD340090DEE4 /* DDAbstractDatabaseLogger.m in Sources */,
-				5DD8426916F1AD340090DEE4 /* DDASLLogger.m in Sources */,
-				5DD8426B16F1AD340090DEE4 /* DDFileLogger.m in Sources */,
-				5DD8426D16F1AD340090DEE4 /* DDLog.m in Sources */,
-				5DD8426F16F1AD340090DEE4 /* DDTTYLogger.m in Sources */,
-				5DD8427116F1AD340090DEE4 /* ContextFilterLogFormatter.m in Sources */,
-				5DD8427316F1AD340090DEE4 /* DispatchQueueLogFormatter.m in Sources */,
-				5DD8427D16F1B6A50090DEE4 /* No320LogFileManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,14 +429,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DD8423716F16ED90090DEE4 /* rails_like_dir_exampleTests.m in Sources */,
-				5DD8426816F1AD340090DEE4 /* DDAbstractDatabaseLogger.m in Sources */,
-				5DD8426A16F1AD340090DEE4 /* DDASLLogger.m in Sources */,
-				5DD8426C16F1AD340090DEE4 /* DDFileLogger.m in Sources */,
-				5DD8426E16F1AD340090DEE4 /* DDLog.m in Sources */,
-				5DD8427016F1AD340090DEE4 /* DDTTYLogger.m in Sources */,
-				5DD8427216F1AD340090DEE4 /* ContextFilterLogFormatter.m in Sources */,
-				5DD8427416F1AD340090DEE4 /* DispatchQueueLogFormatter.m in Sources */,
-				5DD8427E16F1B6A50090DEE4 /* No320LogFileManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

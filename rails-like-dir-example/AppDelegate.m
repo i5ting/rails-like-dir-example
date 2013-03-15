@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 
-#import "No320LogFileManager.h"
+//#import "No320LogFileManager.h"
 
 
 @implementation AppDelegate
@@ -29,68 +29,45 @@
     
     [self setNo320LogConfig];
     
-    DDLogInfo(@"ddd");
-    
-    
-    DDLogInfo(@"22222");DDLogInfo(@"ddd");DDLogInfo(@"ddd");DDLogInfo(@"ddd");DDLogInfo(@"ddd");DDLogInfo(@"ddd");DDLogInfo(@"ddd");DDLogInfo(@"11111");
-    
+ 
     UIButton *t = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     t.frame = CGRectMake(120, 100, 100, 50);
     [t setTitle:@"产生日志吧" forState:UIControlStateNormal];
     [t addTarget:self action:@selector(createlog) forControlEvents:UIControlEventTouchUpInside];
     [self.window addSubview:t];
     
-
-    NSLog(@"%s:%d:%s:%s\n", __func__, __LINE__, __FILE__,__PRETTY_FUNCTION__);
-    NSLog(@"%@\n",NSStringFromSelector(_cmd));
-    NSLog(@"%@\n",NSStringFromClass([self class]));
-    NSLog(@"%@\n",[NSString stringWithUTF8String:__FILE__] );
-    NSLog(@"%@\n",[NSThread callStackSymbols]);
- 
-    
-    NSString *current_dir  =  [NSString stringWithFormat:@"%s",__FILE__];
-    NSString *result_dif   =  [self getDirectory:current_dir withBeforeLevel:2];
-    
-    log_info(@"%@",result_dif);
-    
     return YES;
 }
 
-/**
- * NSString *current_dir  =  [NSString stringWithFormat:@"%s",__FILE__];
- * NSString *result_dif   =  [self getDirectory:current_dir withBeforeLevel:2];
- * 
- * result:
- * current_dir = /Users/myname/work/git/rails-like-dir-example/rails-like-dir-example/AppDelegate.m
- * result dir =  /Users/myname/work/git/rails-like-dir-example/
- */
-
--(NSString *)getDirectory:(NSString *)current_dir withBeforeLevel:(int)blevel
-{
-    //NSString *current_dir = [NSString stringWithFormat:@"%s",__FILE__];
-    NSMutableArray *dir_arr = [NSMutableArray arrayWithArray:[current_dir componentsSeparatedByString:@"/"]];
-    
-    for (int i = 0; i< blevel; i++) {
-        [dir_arr removeObjectAtIndex:[dir_arr count]-1];
-    }
-    
-    return [dir_arr componentsJoinedByString:@"/"];
-}
+ 
 
 -(void)createlog
 {
-    CFUUIDRef uuid = CFUUIDCreate(NULL);
-	CFStringRef fullStr = CFUUIDCreateString(NULL, uuid);
-	NSString *result = (NSString *)CFStringCreateWithSubstring(NULL, fullStr, CFRangeMake(0, 6));
-	
-    
-    DDLogInfo(@"%@",(NSString *)fullStr);
-    DDLogWarn(@"%@",result);
-    DDLogError(@"%@",(NSString *)fullStr);
-    DDLogVerbose(@"%@",result);
-    
-    CFRelease(fullStr);
-	CFRelease(uuid);
+//    CFUUIDRef uuid = CFUUIDCreate(NULL);
+//	CFStringRef fullStr = CFUUIDCreateString(NULL, uuid);
+//	NSString *result = (NSString *)CFStringCreateWithSubstring(NULL, fullStr, CFRangeMake(0, 6));
+//	
+//    
+//    DDLogInfo(@"%@",(NSString *)fullStr);
+//    DDLogWarn(@"%@",result);
+//    DDLogError(@"%@",(NSString *)fullStr);
+//    DDLogVerbose(@"%@",result);
+//    
+//    for (int i = 0; i<10; i++) {
+//        
+//        
+//        
+//        DDLogInfo(@"%s:%d:%s:%s\n", __func__, __LINE__, __FILE__,__PRETTY_FUNCTION__);
+//        DDLogInfo(@"%@\n",NSStringFromSelector(_cmd));
+//        DDLogInfo(@"%@\n",NSStringFromClass([self class]));
+//        DDLogInfo(@"%@\n",[NSString stringWithUTF8String:__FILE__] );
+//        DDLogInfo(@"%@\n",[NSThread callStackSymbols]);
+//        
+//    }
+//    
+//    
+//    CFRelease(fullStr);
+//	CFRelease(uuid);
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
