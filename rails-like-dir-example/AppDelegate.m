@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 
-//#import "No320LogFileManager.h"
+#import "No320LogFileManager.h"
 
 
 @implementation AppDelegate
@@ -29,6 +29,7 @@
     
     [self setNo320LogConfig];
     
+    log_info(@"%@",@"ddd");
  
     UIButton *t = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     t.frame = CGRectMake(120, 100, 100, 50);
@@ -43,31 +44,16 @@
 
 -(void)createlog
 {
-//    CFUUIDRef uuid = CFUUIDCreate(NULL);
-//	CFStringRef fullStr = CFUUIDCreateString(NULL, uuid);
-//	NSString *result = (NSString *)CFStringCreateWithSubstring(NULL, fullStr, CFRangeMake(0, 6));
-//	
-//    
-//    DDLogInfo(@"%@",(NSString *)fullStr);
-//    DDLogWarn(@"%@",result);
-//    DDLogError(@"%@",(NSString *)fullStr);
-//    DDLogVerbose(@"%@",result);
-//    
-//    for (int i = 0; i<10; i++) {
-//        
-//        
-//        
-//        DDLogInfo(@"%s:%d:%s:%s\n", __func__, __LINE__, __FILE__,__PRETTY_FUNCTION__);
-//        DDLogInfo(@"%@\n",NSStringFromSelector(_cmd));
-//        DDLogInfo(@"%@\n",NSStringFromClass([self class]));
-//        DDLogInfo(@"%@\n",[NSString stringWithUTF8String:__FILE__] );
-//        DDLogInfo(@"%@\n",[NSThread callStackSymbols]);
-//        
-//    }
-//    
-//    
-//    CFRelease(fullStr);
-//	CFRelease(uuid);
+ 
+//    log_info(@"%@",@"ddd");
+    DDLogInfo(@"ddd");
+    for (int i = 0; i<10; i++) {
+        log_info(@"%s:%d:%s:%s\n", __func__, __LINE__, __FILE__,__PRETTY_FUNCTION__);
+        log_warning(@"%@\n",NSStringFromSelector(_cmd));
+        log_fatal(@"%@\n",NSStringFromClass([self class]));
+        log_error(@"%@\n",[NSString stringWithUTF8String:__FILE__] );
+        log_debug(@"%@\n",[NSThread callStackSymbols]);
+    }
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
