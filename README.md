@@ -67,3 +67,21 @@ EVF有延时，是硬伤，所以不适用体育摄影，打鸟等场合
 
 - snapseed（修图）
 - PlayMemories Mobile（传传照片）
+
+## iso
+
+死月
+
+- 一般大晴天 100 就够了
+- 阴天 200 400 吧
+- 一般室内 400-800
+
+
+如果是晚上手持拍静物，在保证最低快门速度的情况下（这样不会糊），尽量开最大光圈，然后 保证曝光的合适下 iso 尽可能的低，这样成像质量就最好的
+
+
+## 推荐书籍
+
+- [摄影眼的培养](http://product.dangdang.com/23166903.html)
+- [摄影笔记](http://product.dangdang.com/23764034.html)
+- [摄影构图艺术](http://product.dangdang.com/23611799.html)
